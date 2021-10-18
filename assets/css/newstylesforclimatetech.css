@@ -267,3 +267,15 @@ video {
   width: 100%;
 }
 
+a {
+  color: #17667f;
+  text-decoration: underline;
+}
+a:hover {
+  color: #bfe2e9;
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
